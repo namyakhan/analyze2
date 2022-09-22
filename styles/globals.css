@@ -26,4 +26,8 @@
   h6 {
     @apply text-grey text-[10px];
   }
+  p {
+    @apply text-black text-[12px];
+  }
+
 }
