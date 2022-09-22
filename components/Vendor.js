@@ -26,12 +26,12 @@ const Vendor = ({}) => {
 
   return (
     <div>
-      <div class="overflow-x-auto relative mt-16 ">
-        <table class="w-full text-sm text-left text-gray-500 ">
-          <thead class="text-xs text-grey2 uppercase bg-[#DDDDDD] ">
+      <div className="overflow-x-auto relative mt-16 ">
+        <table className="w-full text-sm text-left text-gray-500 ">
+          <thead className="text-xs text-grey2 uppercase bg-[#DDDDDD] ">
             <tr>
               {Headings.map((heading) => (
-                <th key={heading.id} scope="col" class="py-3 px-6">
+                <th key={heading.id} scope="col" className="py-3 px-6">
                   {heading.title}
                 </th>
               ))}
@@ -40,18 +40,18 @@ const Vendor = ({}) => {
 
           <tbody>
             {/* Apple */}
-            <tr onClick={toggleApple} class="bg-white border-b ">
+            <tr onClick={toggleApple} className="bg-white border-b ">
               <th
                 scope="row"
-                class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
+                className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
                 Apple
               </th>
-              <td class="py-4 px-6">4 apps</td>
-              <td class="py-4 px-6">$100.999</td>
-              <td class="py-4 px-6">Inactive</td>
-              <td class="py-4 px-6">EXPENSIFY</td>
-              <td class="py-4 px-6">$1</td>
+              <td className="py-4 px-6">4 apps</td>
+              <td className="py-4 px-6">$100.999</td>
+              <td className="py-4 px-6">Inactive</td>
+              <td className="py-4 px-6">EXPENSIFY</td>
+              <td className="py-4 px-6">$1</td>
             </tr>
             {/* Applications */}
 
@@ -64,7 +64,7 @@ const Vendor = ({}) => {
                 <th
                   key={heading.id}
                   scope="row"
-                  class="py-4 px-6 font-bold text-xs text-grey2 uppercase bg-[#DDDDDD]  whitespace-nowrap "
+                  className="py-4 px-6 font-bold text-xs text-grey2 uppercase bg-[#DDDDDD]  whitespace-nowrap "
                 >
                   {heading.title}
                 </th>
@@ -79,7 +79,7 @@ const Vendor = ({}) => {
               >
                 <th
                   scope="row"
-                  class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                  className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
                 >
                   {apple.title}
                 </th>
@@ -91,18 +91,18 @@ const Vendor = ({}) => {
               </tr>
             ))}
             {/* Amazon */}
-            <tr onClick={toggleAmazon} class="bg-white border-b ">
+            <tr onClick={toggleAmazon} className="bg-white border-b ">
               <th
                 scope="row"
-                class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
+                className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
                 Amazon
               </th>
-              <td class="py-4 px-6">10 apps</td>
-              <td class="py-4 px-6">$10.999</td>
-              <td class="py-4 px-6">Active</td>
-              <td class="py-4 px-6">BOOKS</td>
-              <td class="py-4 px-6">$10</td>
+              <td className="py-4 px-6">10 apps</td>
+              <td className="py-4 px-6">$10.999</td>
+              <td className="py-4 px-6">Active</td>
+              <td className="py-4 px-6">BOOKS</td>
+              <td className="py-4 px-6">$10</td>
             </tr>
 
             {/* Applications */}
@@ -115,7 +115,7 @@ const Vendor = ({}) => {
                 <th
                   key={heading.id}
                   scope="row"
-                  class="py-4 px-6 font-bold text-xs text-grey2 uppercase bg-[#DDDDDD]  whitespace-nowrap "
+                  className="py-4 px-6 font-bold text-xs text-grey2 uppercase bg-[#DDDDDD]  whitespace-nowrap "
                 >
                   {heading.title}
                 </th>
@@ -130,7 +130,7 @@ const Vendor = ({}) => {
               >
                 <th
                   scope="row"
-                  class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                  className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
                 >
                   {amazon.title}
                 </th>
@@ -143,18 +143,18 @@ const Vendor = ({}) => {
             ))}
 
             {/* EsteeLauder */}
-            <tr onClick={toggleBeautyBrand} class="bg-white border-b ">
+            <tr onClick={toggleBeautyBrand} className="bg-white border-b ">
               <th
                 scope="row"
-                class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
+                className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
                 Estee Lauder
               </th>
-              <td class="py-4 px-6">20 apps</td>
-              <td class="py-4 px-6">$1000.999</td>
-              <td class="py-4 px-6">Active</td>
-              <td class="py-4 px-6">Beauty</td>
-              <td class="py-4 px-6">$1000</td>
+              <td className="py-4 px-6">20 apps</td>
+              <td className="py-4 px-6">$1000.999</td>
+              <td className="py-4 px-6">Active</td>
+              <td className="py-4 px-6">Beauty</td>
+              <td className="py-4 px-6">$1000</td>
             </tr>
 
             {/* Applications */}
@@ -167,7 +167,7 @@ const Vendor = ({}) => {
                 <th
                   key={heading.id}
                   scope="row"
-                  class="py-4 px-6 font-bold text-xs text-grey2 uppercase bg-[#DDDDDD]  whitespace-nowrap "
+                  className="py-4 px-6 font-bold text-xs text-grey2 uppercase bg-[#DDDDDD]  whitespace-nowrap "
                 >
                   {heading.title}
                 </th>
@@ -182,7 +182,7 @@ const Vendor = ({}) => {
               >
                 <th
                   scope="row"
-                  class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                  className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
                 >
                   {beauty.title}
                 </th>
