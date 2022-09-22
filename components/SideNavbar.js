@@ -3,7 +3,7 @@ import {
   PersonalInformation,
   Preferences,
   Employment,
-} from "../pages/contextProvider";
+} from "./contextProvider";
 
 const SideNavbar = () => {
   return (

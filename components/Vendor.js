@@ -4,7 +4,7 @@ import {
   EsteeLauder,
   Headings,
   AppHeading,
-} from "../pages/contextProvider";
+} from "./contextProvider";
 import React, { useState } from "react";
 
 const Vendor = ({}) => {

@@ -1,4 +1,4 @@
-import { Headings, AppHeading } from "../pages/contextProvider";
+import { Headings, AppHeading } from "./contextProvider";
 import Vendor from "./Vendor";
 
 const Layout = () => {
